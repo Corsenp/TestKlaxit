@@ -17,6 +17,8 @@
 		177F7C7827EC801300AEE267 /* TestKlaxitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F7C7727EC801300AEE267 /* TestKlaxitTests.swift */; };
 		177F7C8227EC801300AEE267 /* TestKlaxitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F7C8127EC801300AEE267 /* TestKlaxitUITests.swift */; };
 		177F7C8427EC801300AEE267 /* TestKlaxitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F7C8327EC801300AEE267 /* TestKlaxitUITestsLaunchTests.swift */; };
+		177F7C9127EC878D00AEE267 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F7C9027EC878D00AEE267 /* ProfileViewController.swift */; };
+		177F7C9327EC87A300AEE267 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F7C9227EC87A300AEE267 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		177F7C7D27EC801300AEE267 /* TestKlaxitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestKlaxitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		177F7C8127EC801300AEE267 /* TestKlaxitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKlaxitUITests.swift; sourceTree = "<group>"; };
 		177F7C8327EC801300AEE267 /* TestKlaxitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKlaxitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		177F7C9027EC878D00AEE267 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		177F7C9227EC87A300AEE267 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				177F7C6B27EC801200AEE267 /* LaunchScreen.storyboard */,
 				177F7C6E27EC801200AEE267 /* Info.plist */,
 				177F7C6627EC801100AEE267 /* TestKlaxit.xcdatamodeld */,
+				177F7C9027EC878D00AEE267 /* ProfileViewController.swift */,
+				177F7C9227EC87A300AEE267 /* SearchViewController.swift */,
 			);
 			path = TestKlaxit;
 			sourceTree = "<group>";
@@ -261,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				177F7C9327EC87A300AEE267 /* SearchViewController.swift in Sources */,
 				177F7C6827EC801100AEE267 /* TestKlaxit.xcdatamodeld in Sources */,
 				177F7C6227EC801100AEE267 /* ViewController.swift in Sources */,
+				177F7C9127EC878D00AEE267 /* ProfileViewController.swift in Sources */,
 				177F7C5E27EC801100AEE267 /* AppDelegate.swift in Sources */,
 				177F7C6027EC801100AEE267 /* SceneDelegate.swift in Sources */,
 			);
