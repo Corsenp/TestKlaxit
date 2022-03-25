@@ -57,7 +57,6 @@ class ProfileViewController: UIViewController, UITextFieldDelegate {
         do {
             let request = try context.fetch(Profile.fetchRequest())
             let count = request.count
-            print(count)
             if count <= 1 {
                 guard let localData = apiCaller.readLocalProfile(forName: "account") else {return}
                 
