@@ -24,6 +24,12 @@ class TestKlaxitTests: XCTestCase {
         // Any test you write for XCTest can be annotated as throws and async.
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+        
+        let result = "Bonjour+ceci+est+un+test"
+        
+        let testString = "Bonjour ceci est un test"
+        
+        XCTAssertEqual(testString.convertToQuery(string: testString), result)
     }
 
     func testPerformanceExample() throws {

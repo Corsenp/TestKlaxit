@@ -57,6 +57,7 @@ class ProfileViewController: UIViewController, UITextFieldDelegate {
         do {
             let request = try context.fetch(Profile.fetchRequest())
             let count = request.count
+            print(count)
             if count <= 1 {
                 guard let localData = apiCaller.readLocalProfile(forName: "account") else {return}
                 
@@ -71,8 +72,6 @@ class ProfileViewController: UIViewController, UITextFieldDelegate {
         } catch {
             print("Error Fetching/saving Core Data Profile")
             return
-        }
-        if profile.first_name == nil {
         }
     }
     
@@ -90,6 +89,7 @@ class ProfileViewController: UIViewController, UITextFieldDelegate {
     func setupLabels() {
         do {
             currentProfile = try context.fetch(Profile.fetchRequest())
+            
             phoneNumber.text = currentProfile.first?.phone_number
             homeAddress.text = currentProfile.first?.address
             corporationName.text = currentProfile.first?.company
