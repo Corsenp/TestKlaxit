@@ -19,6 +19,15 @@
 		177F7C8427EC801300AEE267 /* TestKlaxitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F7C8327EC801300AEE267 /* TestKlaxitUITestsLaunchTests.swift */; };
 		177F7C9127EC878D00AEE267 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F7C9027EC878D00AEE267 /* ProfileViewController.swift */; };
 		177F7C9327EC87A300AEE267 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F7C9227EC87A300AEE267 /* SearchViewController.swift */; };
+		177F7C9827ED041700AEE267 /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F7C9627ED041700AEE267 /* Profile+CoreDataClass.swift */; };
+		177F7C9927ED041700AEE267 /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F7C9727ED041700AEE267 /* Profile+CoreDataProperties.swift */; };
+		177F7C9D27ED12A300AEE267 /* account.json in Resources */ = {isa = PBXBuildFile; fileRef = 177F7C9C27ED12A300AEE267 /* account.json */; };
+		177F7CA027ED18A200AEE267 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F7C9F27ED18A200AEE267 /* ImageFetcher.swift */; };
+		177F7CA327EDB80B00AEE267 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F7CA227EDB80B00AEE267 /* Extension+String.swift */; };
+		177F7CA527EDB8FA00AEE267 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F7CA427EDB8FA00AEE267 /* Geo.swift */; };
+		177F7CA727EDBBF800AEE267 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F7CA627EDBBF800AEE267 /* Service.swift */; };
+		177F7CAA27EDBF4800AEE267 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F7CA927EDBF4800AEE267 /* TableCell.swift */; };
+		177F7CAC27EDF22900AEE267 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F7CAB27EDF22900AEE267 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +64,15 @@
 		177F7C8327EC801300AEE267 /* TestKlaxitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKlaxitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		177F7C9027EC878D00AEE267 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		177F7C9227EC87A300AEE267 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		177F7C9627ED041700AEE267 /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		177F7C9727ED041700AEE267 /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		177F7C9C27ED12A300AEE267 /* account.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = account.json; sourceTree = "<group>"; };
+		177F7C9F27ED18A200AEE267 /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
+		177F7CA227EDB80B00AEE267 /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		177F7CA427EDB8FA00AEE267 /* Geo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
+		177F7CA627EDBBF800AEE267 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		177F7CA927EDBF4800AEE267 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		177F7CAB27EDF22900AEE267 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +123,15 @@
 		177F7C5C27EC801100AEE267 /* TestKlaxit */ = {
 			isa = PBXGroup;
 			children = (
+				177F7CA827EDBF3E00AEE267 /* View */,
+				177F7CA127EDB7F100AEE267 /* Extension */,
+				177F7C9B27ED043500AEE267 /* Model */,
+				177F7C9E27ED188F00AEE267 /* Service */,
 				177F7C5D27EC801100AEE267 /* AppDelegate.swift */,
 				177F7C5F27EC801100AEE267 /* SceneDelegate.swift */,
 				177F7C6127EC801100AEE267 /* ViewController.swift */,
 				177F7C6327EC801100AEE267 /* Main.storyboard */,
+				177F7C9C27ED12A300AEE267 /* account.json */,
 				177F7C6927EC801200AEE267 /* Assets.xcassets */,
 				177F7C6B27EC801200AEE267 /* LaunchScreen.storyboard */,
 				177F7C6E27EC801200AEE267 /* Info.plist */,
@@ -134,6 +157,42 @@
 				177F7C8327EC801300AEE267 /* TestKlaxitUITestsLaunchTests.swift */,
 			);
 			path = TestKlaxitUITests;
+			sourceTree = "<group>";
+		};
+		177F7C9B27ED043500AEE267 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				177F7C9727ED041700AEE267 /* Profile+CoreDataProperties.swift */,
+				177F7C9627ED041700AEE267 /* Profile+CoreDataClass.swift */,
+				177F7CA427EDB8FA00AEE267 /* Geo.swift */,
+				177F7CAB27EDF22900AEE267 /* Profile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		177F7C9E27ED188F00AEE267 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				177F7C9F27ED18A200AEE267 /* ImageFetcher.swift */,
+				177F7CA627EDBBF800AEE267 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		177F7CA127EDB7F100AEE267 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				177F7CA227EDB80B00AEE267 /* Extension+String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		177F7CA827EDBF3E00AEE267 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				177F7CA927EDBF4800AEE267 /* TableCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				177F7C6D27EC801200AEE267 /* LaunchScreen.storyboard in Resources */,
+				177F7C9D27ED12A300AEE267 /* account.json in Resources */,
 				177F7C6A27EC801200AEE267 /* Assets.xcassets in Resources */,
 				177F7C6527EC801100AEE267 /* Main.storyboard in Resources */,
 			);
@@ -267,11 +327,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				177F7CA327EDB80B00AEE267 /* Extension+String.swift in Sources */,
 				177F7C9327EC87A300AEE267 /* SearchViewController.swift in Sources */,
 				177F7C6827EC801100AEE267 /* TestKlaxit.xcdatamodeld in Sources */,
+				177F7CAC27EDF22900AEE267 /* Profile.swift in Sources */,
+				177F7CAA27EDBF4800AEE267 /* TableCell.swift in Sources */,
+				177F7C9827ED041700AEE267 /* Profile+CoreDataClass.swift in Sources */,
+				177F7CA027ED18A200AEE267 /* ImageFetcher.swift in Sources */,
+				177F7CA727EDBBF800AEE267 /* Service.swift in Sources */,
 				177F7C6227EC801100AEE267 /* ViewController.swift in Sources */,
 				177F7C9127EC878D00AEE267 /* ProfileViewController.swift in Sources */,
+				177F7CA527EDB8FA00AEE267 /* Geo.swift in Sources */,
 				177F7C5E27EC801100AEE267 /* AppDelegate.swift in Sources */,
+				177F7C9927ED041700AEE267 /* Profile+CoreDataProperties.swift in Sources */,
 				177F7C6027EC801100AEE267 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
